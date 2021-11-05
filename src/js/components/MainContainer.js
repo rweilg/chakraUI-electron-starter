@@ -16,6 +16,7 @@ export default function MainContainer({ children }) {
         flexDirection="column"
         justifyContent="center"
       >
+        {/* Fixed Nav and title */}
         <Flex h="36px" w="100%" justify="space-between" align="center">
           <Image
             boxSize="24px"
@@ -30,6 +31,8 @@ export default function MainContainer({ children }) {
           Title
         </Text>
       </Box>
+
+      {/*  Page content  */}
       <Box h="78vh" overflow="scroll">
         {children}
       </Box>
