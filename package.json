@@ -1,0 +1,33 @@
+{
+  "name": "timeboard-elec",
+  "version": "1.0.0",
+  "description": "timeboard electron interface",
+  "main": "main.js",
+  "author": "Rodrigo Weilg",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "watch": "webpack --config webpack.common.js --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "electron": "^15.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.17",
+    "@chakra-ui/react": "^1.6.10",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "express": "^4.17.1",
+    "framer-motion": "^4",
+    "menubar": "^9.1.0",
+    "node-fetch": "^3.0.0"
+  }
+}
