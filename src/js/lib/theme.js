@@ -1,6 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
 
-const railwayish = extendTheme({
+const customTheme = extendTheme({
   colors: {
     primary: {
       100: "#FF0000",
@@ -13,8 +13,11 @@ const railwayish = extendTheme({
       800: "#0911DD",
       900: "#080FC7",
     },
+    yours: {
+      cardBG: "#f2f2f2",
+    },
     brand: {
-      accent: "#a667e4",
+      accent: "#1953ff",
       border: "#33323e",
       secondary: "#a1a0ab",
     },
@@ -26,4 +29,4 @@ const railwayish = extendTheme({
   },
 });
 
-export default railwayish;
+export default customTheme;

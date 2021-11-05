@@ -25,9 +25,7 @@
     "@chakra-ui/react": "^1.6.10",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
-    "express": "^4.17.1",
     "framer-motion": "^4",
-    "menubar": "^9.1.0",
-    "node-fetch": "^3.0.0"
+    "menubar": "^9.1.0"
   }
 }

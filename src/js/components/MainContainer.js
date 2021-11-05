@@ -1,17 +1,16 @@
 import { Box, Flex, Text, Circle } from "@chakra-ui/layout";
 import React from "react";
-/* import SettingsIcon from "./Settings";
- */ import { Image } from "@chakra-ui/image";
+import { Image } from "@chakra-ui/image";
 import { SettingsIcon } from "@chakra-ui/icons";
 
 export default function MainContainer({ children }) {
   return (
-    <Box w="100vw" h="100vh" bg="#13111C">
+    <Box w="100vw" h="100vh" bg="white">
       <Box
         h="22vh"
         borderBottomWidth="1px"
         borderStyle="solid"
-        borderColor="brand.border"
+        borderColor="gray.200"
         px={4}
         display="flex"
         flexDirection="column"
@@ -19,21 +18,16 @@ export default function MainContainer({ children }) {
       >
         <Flex h="36px" w="100%" justify="space-between" align="center">
           <Image
-            boxSize="28px"
+            boxSize="24px"
             objectFit="cover"
-            src="https://avatars.githubusercontent.com/u/56870068?v=4"
+            src="https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg"
             alt="Profile pic"
             borderRadius="full"
           />
-          <SettingsIcon color="#878593" boxSize="20px" />
+          <SettingsIcon color="#878593" boxSize="22px" />
         </Flex>
-        <Text
-          userSelect="none"
-          color="#ffffff"
-          fontWeight={700}
-          fontSize="28px"
-        >
-          Deployments
+        <Text userSelect="none" color="black" fontWeight={700} fontSize="28px">
+          Title
         </Text>
       </Box>
       <Box h="78vh" overflow="scroll">
