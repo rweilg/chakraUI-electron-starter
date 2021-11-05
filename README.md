@@ -1,3 +1,3 @@
 # chakraUI-electron-starter
 
-![alt text](chakra-electron.png "Title")
+![alt text](./preview.png "Title")
