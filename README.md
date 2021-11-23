@@ -1,6 +1,7 @@
 # Electron Chakra UI Starter
 
 Boilerplate for using Chakra UI in an ElectronJS app.
+Approve by [ChakraUI](https://twitter.com/chakra_ui/status/1456649331218558985) itself.
 
 ![alt text](./preview.png "Title")
 
